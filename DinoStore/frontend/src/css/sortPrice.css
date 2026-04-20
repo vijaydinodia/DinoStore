@@ -1,0 +1,30 @@
+/* sort container */
+.sort-select {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  width: 20vw;
+}
+
+/* dropdown */
+.sort-select select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* hover effect */
+.sort-select select:hover {
+  border-color: #38bdf8;
+}
+
+/* focus */
+.sort-select select:focus {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 5px rgba(14,165,233,0.3);
+}
