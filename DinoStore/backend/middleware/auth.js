@@ -28,7 +28,7 @@ module.exports = async (req, res, next) => {
   // console.log(">>>>>>>>user>>>>>>>", user);
 
   if (!user) {
-    return res.status(400).json({ message: "No user found" });
+    return res.status(400).json({ message: "No user found" , success : false});
   }
   req.user = user;
   next()
